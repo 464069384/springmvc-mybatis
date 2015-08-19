@@ -7,13 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>base Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency><!-- test -->
+	<dependencies><!-- test -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -90,6 +84,52 @@
 			<artifactId>cglib-nodep</artifactId>
 			<version>3.1</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.30</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>4.0.6.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.0.6.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.5.4</version>
+		</dependency>
+		
+		<dependency>  
+		    <groupId>org.codehaus.jackson</groupId>  
+		    <artifactId>jackson-core-lgpl</artifactId>  
+		    <version>1.9.6</version>  
+		</dependency>  
+		<dependency>  
+		    <groupId>org.codehaus.jackson</groupId>  
+		    <artifactId>jackson-core-asl</artifactId>  
+		    <version>1.9.6</version>  
+		</dependency>  
+		<dependency>  
+		    <groupId>org.codehaus.jackson</groupId>  
+		    <artifactId>jackson-mapper-asl</artifactId>  
+		    <version>1.9.6</version>  
+		</dependency>  
+		<dependency>  
+		    <groupId>org.codehaus.jackson</groupId>  
+		    <artifactId>jackson-mapper-lgpl</artifactId>  
+		    <version>1.9.6</version>  
+		</dependency>  
+		
 		
 	</dependencies>
 	<build>
