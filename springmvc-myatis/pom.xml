@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>4.1.0.RELEASE</spring.version>
+		<spring.version>4.0.0.RELEASE</spring.version>
 		<jackson-version>1.9.13</jackson-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<druid.version>0.2.16</druid.version>
@@ -250,7 +250,33 @@
             <artifactId>pagehelper</artifactId>
             <version>3.7.4</version>
         </dependency>
-
+        
+        <!-- spring security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>4.0.0.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>4.0.0.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>4.0.0.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>4.0.0.RELEASE</version>
+		</dependency>
+		
+	
 	</dependencies>
 	<build>
 		<finalName>springmvc-myatis</finalName>
